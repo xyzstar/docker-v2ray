@@ -38,4 +38,4 @@ services:
       - ./data/v2ray:/etc/v2ray
       - ./logs/v2ray:/var/log/v2ray
     expose:
-      - "30909" #开放端口给容器，不对外开放
+      - "11223" #开放端口给容器，不对外开放
